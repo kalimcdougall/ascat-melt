@@ -1,4 +1,4 @@
-# ASCAT-melt
+**ASCAT melt detection**
 
 These scripts create a melt product from ASCAT .sir imagery. Includes the following scripts:
 - Download data from BYU via ftp
