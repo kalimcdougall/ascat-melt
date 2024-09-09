@@ -1,10 +1,5 @@
 import numpy as np
 import netCDF4 as nc
-import geopandas as gpd
-import pandas as pd
-from shapely.geometry import mapping
-import rasterio
-from datetime import datetime, timedelta
 
 dir = 'D:/Drive Backup/School/Masters/Data/ASCAT/'
 
