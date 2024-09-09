@@ -24,7 +24,7 @@ del sigma0.attrs['grid_mapping'] # Delete grid_mapping variable - not sure why t
 clip_sigma0 = sigma0.rio.clip(shape.geometry.apply(mapping), shape.crs, drop=False) # Clip
 
 # Export file as netCDF
-filename = dir + 'merged_clip_test7.nc'
+filename = dir + 'clip_sigma0.nc'
 if os.path.exists(filename):
     os.remove(filename) # Delete the file if it exists
 clip_sigma0.to_netcdf(path=filename)
