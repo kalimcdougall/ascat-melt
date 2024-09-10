@@ -8,7 +8,7 @@ dir = '/directory/path/'
 
 data = xr.open_dataset(dir + 'merged_nc_files.nc')
 
-#%%
+#======================================================
 # Clip merged ASCAT files by shapefile
 sigma0 = data.Sigma0
 
@@ -23,6 +23,7 @@ del sigma0.attrs['grid_mapping'] # Delete grid_mapping variable - not sure why t
 
 clip_sigma0 = sigma0.rio.clip(shape.geometry.apply(mapping), shape.crs, drop=False) # Clip
 
+#======================================================
 # Export file as netCDF
 filename = dir + 'clip_sigma0.nc'
 if os.path.exists(filename):
