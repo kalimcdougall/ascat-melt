@@ -4,7 +4,7 @@ import netCDF4 as nc
 dir = '/directory/path/'
 
 ds = nc.Dataset(dir + 'clip_sigma0.nc')
-clip_sigma0 = ds.variables['clip_sigma0']
+clip_sigma0 = ds.variables['Sigma0']
 
 # Calculate the previous winter (Jun 1 - Aug 31) mean - for melt binary variable
 winter_mean = np.mean(clip_sigma0[:91], axis=0) # Define index range of winter dates
