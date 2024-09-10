@@ -4,7 +4,7 @@ import geopandas as gpd
 import rasterio
 from shapely.geometry import mapping
 
-dir = 'D:/Drive Backup/School/Masters/Data/ASCAT/'
+dir = '/directory/path/'
 
 data = xr.open_dataset(dir + 'filename.nc')
 
