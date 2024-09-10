@@ -1,4 +1,4 @@
-name: GeoP_GDAL
+name: environment
 channels:
   - conda-forge
   - defaults
