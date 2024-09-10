@@ -13,7 +13,7 @@ winter_mean = np.mean(clip_sigma0[:91], axis=0) # Define index range of winter d
 # Apply NaN mask to melt_binary values before writing to netCDF variable
 # Otherwise, NaN values will be assigned a fill value of -2147483648 which must be removed before plotting
 
-melt_binary = np.where(np.isnan(clip_sigma0), np.nan, np.where(clip_sigma0 < winter_mean - 2.7, 1, 0))
+melt_binary = np.where(np.isnan(clip_sigma0), np.nan, np.where(clip_sigma0 < winter_mean - 2.7, 1, 0)) # Melt threshold defined as 2.7 dB for C-band (5.4 GHz) radar (Ashcroft & Long, 2006)
 
 data['melt_binary'] = (('time', 'y', 'x'), melt_binary)
 data['melt_binary'].attrs['long_name'] = 'Melt binary'
