@@ -14,4 +14,4 @@ Scripts are provided for the following procedures:
 
 
 ### References
-Ashcroft, I. & Long, D. (2006). Comparison of methods for melt detection over Greenland using active and passive microwave measurements. *International Journal of Remote Sensing, 27*(12), 2469-2488.
+Ashcroft, I. & Long, D. (2006). Comparison of methods for melt detection over Greenland using active and passive microwave measurements. *International Journal of Remote Sensing, 27*(12), 2469-2488. doi:[10.1080/01431160500534465](https://doi.org/10.1080/01431160500534465)
