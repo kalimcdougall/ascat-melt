@@ -6,4 +6,4 @@ These scripts create a melt product from ASCAT .sir imagery. Includes the follow
 - Clip netCDFs by study region shapefile
 - Calculate melt threshold and perform melt detection
 
-Melt detection performed for major ice shelves around Antarctica - melt product published for 2010-2022 (pending)
+Melt detection performed for major ice shelves around Antarctica - products published for 2010-2022 (pending)
