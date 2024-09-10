@@ -6,7 +6,7 @@ from shapely.geometry import mapping
 
 dir = '/directory/path/'
 
-data = xr.open_dataset(dir + 'filename.nc')
+data = xr.open_dataset(dir + 'merged_nc_files.nc')
 
 #%%
 # Clip merged ASCAT files by shapefile
