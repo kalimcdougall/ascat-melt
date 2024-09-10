@@ -1,6 +1,6 @@
 # ascat-melt
 
-**ASCAT melt detection**
+## ASCAT melt detection
 
 This collection of Python and bash scripts was used to create a binary melt product from ASCAT .sir imagery. This product is being created for major ice shelves around Antarctica and will be submitted to Scientific Data for publication later this year. 
 
@@ -11,3 +11,7 @@ Scripts are provided for the following procedures:
 - Convert .sir files to netCDFs (requires sir2nc C program from BYU)
 - Clip netCDFs by study region shapefile
 - Calculate melt threshold and perform melt detection
+
+
+### References
+Ashcroft, I. & Long, D. (2006). Comparison of methods for melt detection over Greenland using active and passive microwave measurements. *International Journal of Remote Sensing, 27*(12), 2469-2488.
