@@ -1,7 +1,7 @@
 import numpy as np
 import netCDF4 as nc
 
-dir = 'D:/Drive Backup/School/Masters/Data/ASCAT/'
+dir = '/directory/path/'
 
 ds = nc.Dataset(dir + 'clip_sigma0.nc')
 clip_sigma0 = ds.variables['clip_sigma0']
